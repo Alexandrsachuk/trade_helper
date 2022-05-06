@@ -26,8 +26,8 @@ conn = engine.connect()
 Session = sessionmaker(bind=engine)
 s = Session()
 bot = Binance(
-    API_KEY='TH2gATkP9dGER8NIdws4gzJ7xR1hTWCjpWDm4wjGv8BvICmZnELhAjU1AifPsNZK',
-    API_SECRET='x9CBXLOR4THuwzp8mXwM5PtQiy5nXhnopLRCGZ4MnPAKgqsrwcBGeboXvsKbByXE'
+    API_KEY='...',
+    API_SECRET='...'
 )
 
 
