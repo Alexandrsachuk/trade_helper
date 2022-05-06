@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from datetime import date
 import telebot
 
-token = "2040560954:AAFIkU3ArTg8XZUsYQ5F6EV-Q37eLMz9gqY"
+token = "..."
 bots = telebot.TeleBot(token)
 
 meta = MetaData()
